@@ -52,13 +52,13 @@ Use [npx skills](https://github.com/vercel-labs/skills) to install skills direct
 
 ```bash
 # Install all skills
-npx skills add coreyhaines31/marketingskills
+npx skills add greatbigstorm/ai-marketingskills
 
 # Install specific skills
-npx skills add coreyhaines31/marketingskills --skill page-cro copywriting
+npx skills add greatbigstorm/ai-marketingskills --skill page-cro copywriting
 
 # List available skills
-npx skills add coreyhaines31/marketingskills --list
+npx skills add greatbigstorm/ai-marketingskills --list
 ```
 
 This automatically installs to your `.claude/skills/` directory.
@@ -69,7 +69,7 @@ Install via Claude Code's built-in plugin system:
 
 ```bash
 # Add the marketplace
-/plugin marketplace add coreyhaines31/marketingskills
+/plugin marketplace add greatbigstorm/ai-marketingskills
 
 # Install all marketing skills
 /plugin install marketing-skills
@@ -80,8 +80,8 @@ Install via Claude Code's built-in plugin system:
 Clone the entire repo and copy the skills folder:
 
 ```bash
-git clone https://github.com/coreyhaines31/marketingskills.git
-cp -r marketingskills/skills/* .claude/skills/
+git clone https://github.com/greatbigstorm/ai-marketingskills.git
+cp -r ai-marketingskills/skills/* .claude/skills/
 ```
 
 ### Option 4: Git Submodule
@@ -89,10 +89,10 @@ cp -r marketingskills/skills/* .claude/skills/
 Add as a submodule for easy updates:
 
 ```bash
-git submodule add https://github.com/coreyhaines31/marketingskills.git .claude/marketingskills
+git submodule add https://github.com/greatbigstorm/ai-marketingskills.git .claude/ai-marketingskills
 ```
 
-Then reference skills from `.claude/marketingskills/skills/`.
+Then reference skills from `.claude/ai-marketingskills/skills/`.
 
 ### Option 5: Fork and Customize
 
@@ -106,13 +106,13 @@ Use [SkillKit](https://github.com/rohitg00/skillkit) to install skills across mu
 
 ```bash
 # Install all skills
-npx skillkit install coreyhaines31/marketingskills
+npx skillkit install greatbigstorm/ai-marketingskills
 
 # Install specific skills
-npx skillkit install coreyhaines31/marketingskills --skill page-cro copywriting
+npx skillkit install greatbigstorm/ai-marketingskills --skill page-cro copywriting
 
 # List available skills
-npx skillkit install coreyhaines31/marketingskills --list
+npx skillkit install greatbigstorm/ai-marketingskills --list
 ```
 
 ## Usage

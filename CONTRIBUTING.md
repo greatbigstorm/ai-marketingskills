@@ -4,7 +4,7 @@ Thanks for your interest in contributing to Marketing Skills! This guide will he
 
 ## Requesting a Skill
 
-You can also suggest new skills by [opening a skill request](https://github.com/coreyhaines31/marketingskills/issues/new?template=skill-request.yml).
+You can also suggest new skills by [opening a skill request](https://github.com/coreyhaines31/marketingskills/issues/new?template=skill-request.yml) on the original repository.
 
 ## Adding a New Skill
 
