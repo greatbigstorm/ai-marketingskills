@@ -8,7 +8,8 @@ This repository contains **Agent Skills** for AI agents following the [Agent Ski
 
 - **Name**: Marketing Skills
 - **GitHub**: [greatbigstorm/ai-marketingskills](https://github.com/greatbigstorm/ai-marketingskills)
-- **Creator**: Corey Haines
+- **Maintained by**: Big Storm
+- **Originally created by**: Corey Haines
 - **License**: MIT
 
 ## Repository Structure
