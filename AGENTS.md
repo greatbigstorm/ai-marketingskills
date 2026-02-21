@@ -136,6 +136,10 @@ This repo also serves as a plugin marketplace. The manifest at `.claude-plugin/m
 /plugin install marketing-skills
 ```
 
+### Manifest Sync Requirement
+
+When adding, removing, renaming, or moving any skill directory under `skills/`, always update the `skills` array in `.claude-plugin/marketplace.json` in the same change so Claude plugin installs stay in sync.
+
 See [Claude Code plugins documentation](https://code.claude.com/docs/en/plugins.md) for details.
 
 ## Git Workflow
@@ -160,6 +164,7 @@ Follow the [Conventional Commits](https://www.conventionalcommits.org/) specific
 - [ ] `name` follows naming rules (lowercase, hyphens, no `--`)
 - [ ] `description` is 1-1024 chars with trigger phrases
 - [ ] `SKILL.md` is under 500 lines
+- [ ] `.claude-plugin/marketplace.json` includes all changed skill paths
 - [ ] No sensitive data or credentials
 
 ## Tool Integrations
