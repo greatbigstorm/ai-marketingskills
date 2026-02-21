@@ -140,6 +140,14 @@ This repo also serves as a plugin marketplace. The manifest at `.claude-plugin/m
 
 When adding, removing, renaming, or moving any skill directory under `skills/`, always update the `skills` array in `.claude-plugin/marketplace.json` in the same change so Claude plugin installs stay in sync.
 
+### Skill Registry Sync Requirement
+
+When adding, removing, renaming, or moving any skill directory under `skills/`, also update:
+
+- `README.md` skill listings (table and any relevant category bullets)
+- `VERSIONS.md` skill table and `Recent Changes` entry
+- `.claude-plugin/marketplace.json` plugin description count if the total skill count changes
+
 See [Claude Code plugins documentation](https://code.claude.com/docs/en/plugins.md) for details.
 
 ## Git Workflow
@@ -165,6 +173,8 @@ Follow the [Conventional Commits](https://www.conventionalcommits.org/) specific
 - [ ] `description` is 1-1024 chars with trigger phrases
 - [ ] `SKILL.md` is under 500 lines
 - [ ] `.claude-plugin/marketplace.json` includes all changed skill paths
+- [ ] `README.md` reflects added/removed/renamed skills
+- [ ] `VERSIONS.md` includes version row updates and changelog notes
 - [ ] No sensitive data or credentials
 
 ## Tool Integrations
